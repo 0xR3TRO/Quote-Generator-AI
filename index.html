@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generator Cytatów</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" class="logo" type="image/png" href="logo.png">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="logo.png" alt="Logo" id="logo" onclick="returnToHome()">
+  </div>
+  <nav>
+    <ul class="menu-list">
+      <li><a href="generator_ai.html" onclick="showAIGenerator()">Generator</a></li>
+      <li><a href="quote_ot_day.html" onclick="showQuoteOfDay()">Cytat dnia</a></li>
+      <li><a href="index.html" onclick="showRandomQuote()">Losowy cytat</a></li>
+    </ul>
+  </nav>
+  <div>
+    <img>
+  </div>
+</header>
+
+<main>
+  <div class="quote-box">
+    <h2 id="quote-title">Tytuł cytatu</h2>
+    <p id="quote-content">Treść cytatu znajdzie się tutaj.</p>
+    <div class="author">
+      <p id="quote-author">Autor cytatu</p>
+    </div>
+    <div class="share-buttons">
+      <button onclick="shareOnTwitter()">Twitter</button>
+      <button onclick="shareOnFacebook()">Facebook</button>
+      <button onclick="saveQuote()">Zapisz</button>
+    </div>
+  </div>
+  <button class="animation-button" onclick="expandButton()">Kliknij mnie</button>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

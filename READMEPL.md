@@ -1,6 +1,4 @@
 ## Opis projektu:
-[English](README.md)
----
 
 ### Cel:
 
@@ -28,7 +26,6 @@ Projekt ma na celu stworzenie interaktywnej aplikacji "Generator Cytatów Motywa
 
 ## Analiza Wymagań:
 
----
 
 ### Wymagania Funkcjonalne:
 
@@ -51,7 +48,6 @@ Projekt ma na celu stworzenie interaktywnej aplikacji "Generator Cytatów Motywa
 
 ## Projekt Interfejsu:
 
----
 
 ### Szkice/Wizualizacje Interfejsu:
 
@@ -69,7 +65,6 @@ Projekt ma na celu stworzenie interaktywnej aplikacji "Generator Cytatów Motywa
 
 ## Architektura Systemu:
 
----
 
 ### Technologie:
 
@@ -77,7 +72,6 @@ Projekt ma na celu stworzenie interaktywnej aplikacji "Generator Cytatów Motywa
 
 ## Testowanie:
 
----
 
 ### Plan Testów:
 
@@ -91,7 +85,6 @@ Projekt ma na celu stworzenie interaktywnej aplikacji "Generator Cytatów Motywa
 
 ## Implementacja:
 
----
 
 ### Opis Technologii:
 
@@ -107,7 +100,6 @@ logiki aplikacji, interfejsu, zarządzania danymi.
 
 ## Wdrożenie i Konserwacja:
 
----
 
 ### Plan Wdrożenia:
 
@@ -121,7 +113,6 @@ logiki aplikacji, interfejsu, zarządzania danymi.
 
 ## Harmonogram:
 
----
 
 ### Plan Projektu:
 
@@ -130,9 +121,11 @@ logiki aplikacji, interfejsu, zarządzania danymi.
 
 ## Kosztorys:
 
----
 
 ### Szacunkowe Koszty:
 
 - **Rozwój Aplikacji:** Wg godzin pracy lub zespołu programistycznego.
 - **Koszty Utrzymania:** Serwery, usługi zewnętrzne, ewentualne opłaty za wsparcie techniczne.
+
+---
+[English](README.md)

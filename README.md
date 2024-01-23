@@ -1,6 +1,4 @@
 ## Project Description:
-[Polish](READMEPL.md)
----
 
 ### Objective:
 
@@ -28,7 +26,6 @@ The project aims to create an interactive application called "Motivational Quote
 
 ## Requirements Analysis:
 
----
 
 ### Functional Requirements:
 
@@ -51,7 +48,6 @@ The project aims to create an interactive application called "Motivational Quote
 
 ## Interface Design:
 
----
 
 ### Sketches/Visualizations:
 
@@ -69,7 +65,6 @@ The project aims to create an interactive application called "Motivational Quote
 
 ## System Architecture:
 
----
 
 ### Technologies:
 
@@ -77,7 +72,6 @@ The project aims to create an interactive application called "Motivational Quote
 
 ## Testing:
 
----
 
 ### Test Plan:
 
@@ -91,7 +85,6 @@ The project aims to create an interactive application called "Motivational Quote
 
 ## Implementation:
 
----
 
 ### Technology Description:
 
@@ -104,7 +97,6 @@ The project aims to create an interactive application called "Motivational Quote
 
 ## Deployment and Maintenance:
 
----
 
 ### Deployment Plan:
 
@@ -118,7 +110,6 @@ The project aims to create an interactive application called "Motivational Quote
 
 ## Schedule:
 
----
 
 ### Project Plan:
 
@@ -127,9 +118,11 @@ The project aims to create an interactive application called "Motivational Quote
 
 ## Budget:
 
----
 
 ### Estimated Costs:
 
 - **Application Development:** Based on hours of work or the development team.
 - **Maintenance Costs:** Servers, external services, possible fees for technical support.
+
+---
+[Polish](READMEPL.md)

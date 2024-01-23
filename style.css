@@ -1,0 +1,161 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-color: #3a3a3ac2;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+  
+.logo img {
+    width: 40px; 
+    height: 40px; 
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto;
+}
+
+nav .menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 0;
+}
+  
+nav .menu-list li {
+    margin-right: 20px;
+    position: relative;
+}
+  
+nav .menu-list a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+
+nav .menu-list a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #31c48d; 
+    border-radius: 5px; 
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+  
+nav .menu-list a:hover {
+    color: #31c48d; 
+}
+  
+nav .menu-list li:hover a::before {
+    width: 100%; 
+    background-color: transparent; 
+}
+  
+nav .menu-list li:active a::before {
+    animation: squeeze 0.5s ease; 
+}
+  
+@keyframes squeeze {
+    to {
+      width: 0; 
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block; 
+    text-align: center;
+    width: 100%; 
+}
+  
+nav ul li {
+    display: inline-block; 
+    margin-right: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+  
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+  
+.quote-box {
+    border: 2px solid #333;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    margin: 10px; 
+}
+
+#quote-title {
+    margin-bottom: 10px;
+}
+
+.author {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Centrujemy autor na środku */
+}
+
+.share-buttons button {
+    margin: 5px;
+}
+  
+.animation-button {
+    padding: 10px;
+    background-color: #31c48d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+  
+.animation-button:hover {
+    background-color: #555;
+}
+
+button {
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #31c48d;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Dodajemy animację zmiany koloru tła i przesunięcia */
+}
+  
+button:hover {
+    background-color: #31c48d; /* Zmiana koloru tła po najechaniu */
+}
+  
+button:active {
+    transform: translateY(-5px); /* Podskakiwanie do góry po kliknięciu */
+}
