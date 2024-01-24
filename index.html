@@ -1,47 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Generator Cytatów</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" class="logo" type="image/png" href="logo.png">
-</head>
-<body>
-
-<header>
-  <div class="logo">
-    <img src="logo.png" alt="Logo" id="logo" onclick="returnToHome()">
-  </div>
-  <nav>
-    <ul class="menu-list">
-      <li><a href="generator_ai.html" onclick="showAIGenerator()">Generator</a></li>
-      <li><a href="quote_ot_day.html" onclick="showQuoteOfDay()">Cytat dnia</a></li>
-      <li><a href="index.html" onclick="showRandomQuote()">Losowy cytat</a></li>
-    </ul>
-  </nav>
-  <div>
-    <img>
-  </div>
-</header>
-
-<main>
-  <div class="quote-box">
-    <h2 id="quote-title">Tytuł cytatu</h2>
-    <p id="quote-content">Treść cytatu znajdzie się tutaj.</p>
-    <div class="author">
-      <p id="quote-author">Autor cytatu</p>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Random Quote Generator in JavaScript| CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Quote of the Day</header>
+      <div class="content">
+        <div class="quote-area">
+          <i class="fas fa-quote-left"></i>
+          <p class="quote">Never give up because you never know if the next try is going to be the one that works.</p>
+          <i class="fas fa-quote-right"></i>
+        </div>
+        <div class="author">
+          <span>__</span>
+          <span class="name">Mary Kay Ash</span>
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="features">
+          <ul>
+            <li class="speech"><i class="fas fa-volume-up"></i></li>
+            <li class="copy"><i class="fas fa-copy"></i></li>
+            <li class="twitter"><i class="fab fa-twitter"></i></li>
+          </ul>
+          <button>New Quote</button>
+        </div>
+      </div>
     </div>
-    <div class="share-buttons">
-      <button onclick="shareOnTwitter()">Twitter</button>
-      <button onclick="shareOnFacebook()">Facebook</button>
-      <button onclick="saveQuote()">Zapisz</button>
-    </div>
-  </div>
-  <button class="animation-button" onclick="expandButton()">Kliknij mnie</button>
-</main>
-
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
