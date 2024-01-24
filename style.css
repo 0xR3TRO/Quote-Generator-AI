@@ -1,5 +1,7 @@
-/* Import Google Font - Poppins */
+/* Importing Google Font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Resetting default margin, padding, and box-sizing, and setting the font family to Poppins */
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Styling the body with a linear gradient background */
 body {
     display: flex;
     align-items: center;
@@ -15,6 +18,7 @@ body {
     background: linear-gradient(to right, #b48ad4, #be91f5, #a183c6, #9075b3);
 }
 
+/* Styling the main container with background, border radius, padding, and box shadow */
 .wrapper {
   width: 605px;
   background: #f7edf6;
@@ -23,26 +27,30 @@ body {
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
 }
 
-header,
-.content :where(i, p, span) {
+/* Styling header and content text color */
+header, .content :where(i, p, span) {
   color: #202842;
 }
 
+/* Styling the header font size, weight, and text alignment */
 .wrapper header {
   font-size: 35px;
   font-weight: 600;
   text-align: center;
 }
 
+/* Styling the content margin */
 .wrapper .content {
   margin: 35px 0;
 }
 
+/* Styling the quote area with flex display and center justification */
 .content .quote-area {
   display: flex;
   justify-content: center;
 }
 
+/* Styling the quote icon and adjusting its margin */
 .quote-area i {
   font-size: 15px;
 }
@@ -51,18 +59,21 @@ header,
   margin: 3px 10px 0 0;
 }
 
+/* Styling the last quote icon with flex display and margin adjustment */
 .quote-area i:last-child {
   display: flex;
   margin: 0 0 3px 10px;
   align-items: flex-end;
 }
 
+/* Styling the quote text with font size, center alignment, and word break */
 .quote-area .quote {
   font-size: 22px;
   text-align: center;
   word-break: break-all;
 }
 
+/* Styling the author information with flex display, font size, margin, italic style, and right justification */
 .content .author {
   display: flex;
   font-size: 18px;
@@ -71,15 +82,18 @@ header,
   justify-content: flex-end;
 }
 
+/* Styling the first span in the author section with margin, font family, and negative top margin */
 .author span:first-child {
   margin: -7px 5px 0 0;
   font-family: monospace;
 }
 
+/* Styling the buttons section with a top border */
 .wrapper .buttons {
   border-top: 1px solid #ccc;
 }
 
+/* Styling the features section with flex display, top margin, alignment, and space-between justification */
 .buttons .features {
   display: flex;
   margin-top: 20px;
@@ -87,10 +101,12 @@ header,
   justify-content: space-between;
 }
 
+/* Styling the features list with flex display */
 .features ul {
   display: flex;
 }
 
+/* Styling individual feature icons with margin, height, width, cursor, color, list style, border radius, and transition */
 .features ul li {
   margin: 0 5px;
   height: 47px;
@@ -107,19 +123,23 @@ header,
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adding shadow */
 }
 
+/* Styling the first feature icon with no left margin */
 .features ul li:first-child {
   margin-left: 0;
 }
 
+/* Styling feature icons on hover or when active with color and background changes */
 ul li:is(:hover, .active) {
   color: #fff;
   background: #6e3cac;
 }
 
+/* Styling the active speech feature to disable pointer events */
 ul .speech.active {
   pointer-events: none;
 }
 
+/* Styling the buttons with no border, white color, no outline, font size, cursor, padding, border radius, background, and box shadow */
 .buttons button {
   border: none;
   color: #fff;
@@ -132,6 +152,7 @@ ul .speech.active {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow */
 }
 
+/* Styling the loading state of the button with reduced opacity and disabled pointer events */
 .buttons button.loading {
   opacity: 0.7;
   pointer-events: none;

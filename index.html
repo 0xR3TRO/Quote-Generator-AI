@@ -1,37 +1,55 @@
-<!DOCTYPE html>
+<!-- HTML structure for the Quote Generator application -->
 <html lang="en" dir="ltr">
   <head>
+    <!-- Meta information including character set, title, and viewport settings -->
     <meta charset="utf-8">  
     <title>Quote Generator</title>
+    <!-- Link to external CSS stylesheet for styling -->
     <link rel="stylesheet" href="style.css">
+    <!-- Setting viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <body>
+    <!-- Main container for the application -->
     <div class="wrapper">
+      <!-- Header displaying the title "Quote of the Day" -->
       <header>Quote of the Day</header>
+      
+      <!-- Content section containing the quote and author information -->
       <div class="content">
+        <!-- Quote area with left and right quote icons -->
         <div class="quote-area">
           <i class="fas fa-quote-left"></i>
+          <!-- Actual quote text -->
           <p class="quote">Never give up because you never know if the next try is going to be the one that works.</p>
           <i class="fas fa-quote-right"></i>
         </div>
+        
+        <!-- Author information section with underscore separator and name -->
         <div class="author">
           <span>__</span>
           <span class="name">Mary Kay Ash</span>
         </div>
       </div>
+      
+      <!-- Buttons section with features and a button to generate a new quote -->
       <div class="buttons">
         <div class="features">
+          <!-- Unordered list of feature icons (volume, copy, twitter) -->
           <ul>
             <li class="speech"><i class="fas fa-volume-up"></i></li>
             <li class="copy"><i class="fas fa-copy"></i></li>
             <li class="twitter"><i class="fab fa-twitter"></i></li>
           </ul>
+          <!-- Button to generate a new quote -->
           <button>New Quote</button>
         </div>
       </div>
     </div>
+    
+    <!-- JavaScript file for handling the application logic -->
     <script src="script.js"></script>
   </body>
 </html>
