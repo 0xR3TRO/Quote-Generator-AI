@@ -125,4 +125,4 @@ The project aims to create an interactive application called "Motivational Quote
 - **Maintenance Costs:** Servers, external services, possible fees for technical support.
 
 ---
-[Polish](READMEPL.md)
+[Polish](Documents/READMEPL.md)

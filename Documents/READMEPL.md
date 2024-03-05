@@ -128,4 +128,4 @@ logiki aplikacji, interfejsu, zarządzania danymi.
 - **Koszty Utrzymania:** Serwery, usługi zewnętrzne, ewentualne opłaty za wsparcie techniczne.
 
 ---
-[English](README.md)
+[English](/README.md)
